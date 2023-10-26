@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: arial;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+.navmenu {
+    display: flex;
+}
+
+.navmenu a {
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover {
+    color: #ee1c47;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon i{
+    margin-right: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #ee1c47;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: #ffffff;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+body{
+    background-image: url(Imagens/pexels-magnus-mueller-2818118.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section{
+    padding-top: 300px;
+    text-align: center;
+}
+
+section h1{
+    font-size: 80px;
+    color: #fff;
+}
+
+section a{
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+
+}
+.social-icons {
+    text-align: center;
+    margin: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-size: 24px;
+}
+
+
+
